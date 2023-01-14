@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    background-image: url("images/Wallpaper.png");
+    background-size: cover;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+.box {
+    padding-left: 10px;
+    display: grid;
+    width: 500px;
+    background-color: #1F2937;
+    border: 4px solid #01c51f;
+    border-top-width:0px ;
+    
+}
+.header {
+    color: rgb(255, 255, 255);
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+}
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #D5D4D8;
+    opacity: 0.9;
+}
+.pass-btn {
+    margin-top: 51px;
+    width: fit-content;
+    text-align: left;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    background-color: #10B981;
+    border-style: none ;
+    border-radius: 6px;
+    padding: 9 17 9 15;
+    margin-bottom: 35px;
+}
+.pass-btn:hover {
+    background-color: #43c398;
+}
+.pass-btn:active {
+    background-color: #0bd08e;
+}
+.result-box {
+    display: grid;
+    grid-template-columns: 211px 211px;
+    color: #55F991;
+    column-gap: 24px;
+    padding-top: 35px;
+    border-top: 1px solid #2F3E53;
+
+}
+.result-box p{
+    background-color: #273549;
+    padding: 10 5 10 5;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    max-width: 200px; 
+    height: 19px;
+    margin-top: 0px;
+    border-radius: 5px;
+ 
+
+    
+}
